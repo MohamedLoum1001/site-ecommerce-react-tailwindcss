@@ -1,0 +1,23 @@
+/* Global Styles */
+body {
+  margin: 0; /* Supprime les marges par défaut du body */
+  padding: 0; /* Supprime tout padding par défaut */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Fonts modernes et compatibles */
+  -webkit-font-smoothing: antialiased; /* Rend les polices plus lisses sur WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Rend les polices plus nettes sur macOS */
+  background-color: #f9f9f9; /* Couleur de fond douce par défaut */
+  color: #333; /* Couleur de texte par défaut */
+  line-height: 1.6; /* Améliore la lisibilité */
+}
+
+/* Styles pour les blocs de code */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Fonts spécifiques pour le code */
+  font-size: 0.95em; /* Taille légèrement réduite pour le code */
+  background-color: #f4f4f4; /* Fond clair pour différencier */
+  padding: 2px 4px; /* Espace autour du texte */
+  border-radius: 4px; /* Coins arrondis */
+}
